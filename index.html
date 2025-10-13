@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOTA | Аренда товаров</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/logo.png">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">SOTA</a>
+
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#instructions" class="header__link">Как арендовать</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#about" class="header__link">О нас</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#carousel" class="header__link">Товары</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#faq" class="header__link">Вопросы</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="https://t.me/sota_rental_bot" class="header__link header__link--highlight">Арендовать
+                            товар</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="header__burger" id="burger">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </button>
+        </div>
+
+        <!-- Полноэкранное меню -->
+        <div class="header__fullscreen-menu" id="fullscreenMenu">
+            <ul class="header__fullscreen-list">
+                <li class="header__fullscreen-item">
+                    <a href="#instructions" class="header__fullscreen-link">Как арендовать</a>
+                </li>
+                <li class="header__fullscreen-item">
+                    <a href="#about" class="header__fullscreen-link">О нас</a>
+                </li>
+                <li class="header__fullscreen-item">
+                    <a href="#carousel" class="header__fullscreen-link">Товары</a>
+                </li>
+                <li class="header__fullscreen-item">
+                    <a href="#faq" class="header__fullscreen-link">Вопросы</a>
+                </li>
+                <li class="header__fullscreen-item">
+                    <a href="https://t.me/sota_rental_bot"
+                        class="header__fullscreen-link header__fullscreen-link--highlight">Арендовать товар</a>
+                </li>
+            </ul>
+            <img src="./assets/logo-orange-burger-menu.png" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__body">
+                <img src="assets/logo.svg" alt="">
+                <button>
+                    Взять товар в аренду
+                    <img src="assets/right-arrow.svg" alt="">
+                </button>
+            </div>
+        </section>
+        <section class="carousel" id="carousel">
+            <h1 class="carousel-title">КАТЕГОРИИ ТОВАРОВ</h1>
+
+            <div class="swiper category-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Все ваши категории -->
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-1.png" alt="">
+                            <h3 class="bold-category">Игровые приставки и VR-гарнитура</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-2.png" alt="">
+                            <h3 class="normal-category">Микрофоны</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-3.png" alt="">
+                            <h3 class="bold-category">Строительные инструменты</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-4.png" alt="">
+                            <h3 class="bold-category">Бытовая техника</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-5.png" alt="">
+                            <h3 class="bold-category">Проекторы</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-6.png" alt="">
+                            <h3 class="bold-category">Принтеры и МФУ</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-7.png" alt="">
+                            <h3 class="normal-category">Колонки и караоке</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-8.png" alt="">
+                            <h3 class="bold-category">Экшн-камеры и фотоаппараты</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-9.png" alt="">
+                            <h3 class="normal-category">Ноутбуки и ПК</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-10.png" alt="">
+                            <h3 class="bold-category">Периферийные устройства</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-11.png" alt="">
+                            <h3 class="bold-category">На компанию</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-12.png" alt="">
+                            <h3 class="normal-category">Кухонные приборы и инструменты</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-13.png" alt="">
+                            <h3 class="bold-category">Для детей</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-14.png" alt="">
+                            <h3 class="bold-category">Для домашних животных</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-15.png" alt="">
+                            <h3 class="bold-category">Реабилитация и восстановление</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-16.png" alt="">
+                            <h3 class="bold-category">Лыжи и сноуборды</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-17.png" alt="">
+                            <h3 class="bold-category">Велосипеды и самокаты</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-18.png" alt="">
+                            <h3 class="bold-category">Ролики и коньки</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="category-card">
+                            <img src="assets/slide-19.png" alt="">
+                            <h3 class="bold-category">Кабели и переходники</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Кастомные стрелки -->
+                <button class="custom-arrow custom-prev"><img src="assets/left_arrow_slider.svg" alt=""></button>
+                <button class="custom-arrow custom-next"><img src="assets/right_arrow_slider.svg" alt=""></button>
+            </div>
+        </section>
+        <section class="instructions" id="instructions">
+            <h2 class="instructions-title">Как это работает</h2>
+
+            <div class="swiper instructions-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/instructions-1.png" alt="Шаг 1">
+                        <p class="step-text">
+                            Выберите категорию <br>
+                            Начните с выбора подходящей категории — ноутбуки, проекторы, колонки и другое оборудование.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/instructions-2.png" alt="Шаг 2">
+                        <p class="step-text">Найдите нужную позицию <br>
+                            Внутри категории выберите именно то устройство, которое вам необходимо.</p>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/instructions-3.png" alt="Шаг 3">
+                        <p class="step-text">Ознакомьтесь с информацией<br>
+                            На карточке техники доступны характеристики, условия аренды и стоимость.</p>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/instructions-4.png" alt="Шаг 4">
+                        <p class="step-text">Укажите адрес доставки <br>
+                            Заполните поле с адресом, чтобы техника приехала в ближайший постамат или удобное место.</p>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/instructions-5.png" alt="Шаг 5">
+                        <p class="step-text">Подтвердите заказ <br>
+                            После заполнения всех обязательных данных кнопка «Арендовать» станет активной и загорится
+                            оранжевым.</p>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/instructions-6.png" alt="Шаг 6">
+                        <p class="step-text">Управляйте заказами <br>
+                            В личном кабинете можно посмотреть личные данные и активные заказы.</p>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/instructions-7.png" alt="Шаг 7">
+                        <p class="step-text">История аренды <br>
+                            На этом же экране хранится вся история завершённых заказов.
+                        </p>
+
+                    </div>
+                </div>
+                <button class="custom-arrow custom-prev"><img src="assets/left_arrow_slider.svg" alt=""></button>
+                <button class="custom-arrow custom-next"><img src="assets/right_arrow_slider.svg" alt=""></button>
+                <!-- Пагинация (опционально) -->
+                <div class="instructions-pagination"></div>
+            </div>
+            <div style="width: 100%; display: flex; justify-content: center;">
+                <button class="open_order">к заказу</button>
+            </div>
+        </section>
+        <section class="brands" id="brands">
+            <h2 class="brands-title">Бренды</h2>
+            <div class="brands-list">
+                <img src="assets/brand-1.png" alt="">
+                <img src="assets/brand-2.png" alt="">
+                <img src="assets/brand-3.png" alt="">
+                <img src="assets/brand-4.png" alt="">
+                <img src="assets/brand-5.png" alt="">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2 class="about-title">SOTA — современный сервис аренды техники</h2>
+            <div class="about-list">
+                <div class="about-item">
+                    <div class="about-item-text">
+                        Мы — команда IT-специалистов, которая создала сервис SOTA, чтобы сделать аренду техники и
+                        товаров максимально простой и доступной. Когда-то мы заметили: пользователи не хотят тратить
+                        десятки тысяч на вещи, которые будут пылиться дома. Им не нужны огромные залоги, бумажная
+                        волокита и встречи с арендодателями. Все, чего хочется людям — это нажать одну кнопку и получить
+                        нужный товар здесь и сейчас. Так появилась SOTA — платформа аренды, где всё работает быстро и
+                        удобно: выбрали товар в чат-боте, забрали рядом с домом — и пользуетесь. Современные технологии
+                        становятся доступными каждому, без лишних барьеров. Название SOTA мы выбрали не случайно. Для
+                        нас это ассоциация с ячейкой хранения — структурой, где всё организовано, доступно и под рукой.
+                        Захотел — арендовал. Просто, прозрачно и удобно.
+                        <button>стать партнером SOTA</button>
+                    </div>
+                    <img src="assets/about-1.png" alt="">
+                </div>
+                <div class="about-item">
+                    <img src="assets/about-2.png" alt="">
+                    <div class="about-item-text">
+                        <h3>Экономия и забота об экологии</h3>
+                        Мы — команда IT-специалистов, которая создала сервис SOTA, чтобы сделать аренду техники и
+                        товаров максимально простой и доступной. Когда-то мы заметили: пользователи не хотят тратить
+                        десятки тысяч на вещи, которые будут пылиться дома. Им не нужны огромные залоги, бумажная
+                        волокита и встречи с арендодателями. Все, чего хочется людям — это нажать одну кнопку и получить
+                        нужный товар здесь и сейчас. Так появилась SOTA — платформа аренды, где всё работает быстро и
+                        удобно: выбрали товар в чат-боте, забрали рядом с домом — и пользуетесь. Современные технологии
+                        становятся доступными каждому, без лишних барьеров. Название SOTA мы выбрали не случайно. Для
+                        нас это ассоциация с ячейкой хранения — структурой, где всё организовано, доступно и под рукой.
+                        Захотел — арендовал. Просто, прозрачно и удобно.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map" id="map">
+            <h3 class="map-title">Карта постаматов SOTA</h3>
+            <div class="map-list">
+                <div class="map-postomat">
+                    <img src="assets/map-1.png" alt="">
+                    <span>
+                        описание
+                    </span>
+                </div>
+                <img class="map-img" src="assets/map-2.png" alt="">
+            </div>
+        </section>
+
+        <section class="faq" id="faq">
+            <h2 class="faq-title">ОТВЕТЫ НА ВОПРОСЫ</h2>
+
+            <div class="faq-list">
+                <!-- Вопрос 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <img src="assets/sota-1.png" class="sota-1">
+        <img src="assets/sota-2.png" class="sota-2">
+        <img src="assets/sota-3.png" class="sota-3">
+        <img src="assets/sota-1.png" class="sota-4">
+        <img src="assets/sota-2.png" class="sota-5">
+        <img src="assets/sota-1.png" class="sota-6">
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Логотип и соцсети -->
+            <div class="footer-brand">
+                <img src="assets/footer_logo.svg" alt="SOTA" class="footer-logo">
+                <p class="footer-mission">Миссия компании</p>
+                <p class="footer-social-title">Мы в социальных сетях:</p>
+                <div class="footer-social-icons">
+                    <a href="#"><img src="assets/vk.png" alt="VK"></a>
+                    <a href="#"><img src="assets/yt.png" alt="YouTube"></a>
+                    <a href="#"><img src="assets/tg.png" alt="Telegram"></a>
+                    <a href="#"><img src="assets/ig.png" alt="Instagram"></a>
+                </div>
+            </div>
+
+            <!-- Меню -->
+            <div class="footer-menu">
+                <h4>Меню</h4>
+                <ul>
+                    <li><a href="#instructions">Как арендовать</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#carousel">Товары</a></li>
+                    <li><a href="#faq">Вопросы</a></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Офферта</a></li>
+                </ul>
+            </div>
+
+            <!-- Контакты -->
+            <div class="footer-contacts">
+                <h4>Контакты</h4>
+                <p><strong>Телефон:</strong> ---</p>
+                <p><strong>Email:</strong> info@company.ru</p>
+            </div>
+
+            <!-- Реквизиты -->
+            <div class="footer-requisites">
+                <h4>Реквизиты</h4>
+                <p><strong>ИП:</strong> ---</p>
+                <p><strong>ОГРН:</strong> ---</p>
+                <p><strong>ИНН:</strong> ---</p>
+                <a href="https://t.me/sota_rental_bot"><button class="footer-app-button">Перейти в
+                        приложение</button></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/category.js"></script>
+    <script src="scripts/instructions.js"></script>
+    <script src="map.js"></script>
+    <script src="scripts/faq.js"></script>
+    <script src="scripts/header.js"></script>
+</body>
+
+</html>
